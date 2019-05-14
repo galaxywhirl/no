@@ -1,0 +1,16 @@
+body {
+  background: #474350;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.span-col-2{grid-column: span 2 / auto;}
+
+#header {background: #6c0e23;}
+
+nav {background: #c7efcf;}
+article {background: #f2f2f2}
+footer {background: #d6d1b1;}
