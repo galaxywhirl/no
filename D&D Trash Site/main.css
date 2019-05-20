@@ -1,16 +1,50 @@
+
 body {
   background: #474350;
+  font-family: 'Macondo Swash Caps', cursive;
+  background: url("tile.png");
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
 }
-.span-col-2{grid-column: span 2 / auto;}
 
-#header {background: #6c0e23;}
+.span-col-2 {
+  grid-column: span 2 / auto;
+}
 
-nav {background: #c7efcf;}
+.span-col-3 {
+  grid-column: span 3 / auto;
+}
+
+#header {background: #6c0e23;
+  height: 220px;
+}
+
+
+nav {background: #c7efcf; height:300px;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #c7efcf;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color:#c7efcf;
+}
 article {background: #f2f2f2}
-footer {background: #d6d1b1;}
+footer {background: #c7efcf;}
