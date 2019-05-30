@@ -3,7 +3,7 @@ body {
   background: #474350;
   font-family: 'Macondo Swash Caps', cursive;
   color: white;
-  background: url("bg.png");
+  background: url("tile.png");
 }
 
 .grid {
@@ -37,7 +37,7 @@ ul {
 
 li a {
   display: block;
-  color: #000;
+  color: white;
   padding: 8px 16px;
   text-decoration: none;
 }
@@ -45,7 +45,7 @@ li a {
 /* Change the link color on hover */
 li a:hover {
   background-color: #555;
-  color:#c7efcf;
+  color: White;
 }
 article {background: #5b5b5b}
 footer {background: #3a0412;}
